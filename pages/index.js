@@ -15,6 +15,7 @@ import phoneBook from "../public/phoneBook.svg"
 import shiftsLogger from "../public/shiftsLogger.svg"
 import dinnerTableOptimizer from "../public/dinnerTableOptimizer.svg"
 import mathGame from "../public/mathGame.svg"
+import exercise from "../public/exercise.svg"
 import {useState} from "react";
 
 
@@ -202,6 +203,23 @@ export default function Home() {
               <p className="text-gray-800 py-1">Entity Framework</p>
               <p className="text-gray-800 py-1">Code First Migration</p>
               <p className="text-gray-800 py-1">Permutations with Lehmer Codes</p>
+              <p className="text-gray-800 py-1">Console Application</p>
+            </div>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 basis-1/5 flex-1">
+              <Image className="display: inline-block" src={exercise} width={85} height={85} alt=""/>
+              <h3 className="text-lg font-medium pt-8 pb-2">Exercise Tracker</h3>
+              <p className="py-2">
+                Track your exercises.
+              </p>
+              <a className="text-teal-600" target='_blank'
+                  rel='noopener noreferrer' href="https://github.com/gurrappp/ExcerciseTracker">Link to GitHub Repository</a>
+              <h4 className="py-4 text-teal-600">Tools</h4>
+              <p className="text-gray-800 py-1">C# / .NET</p>
+              <p className="text-gray-800 py-1">SQL Server</p>
+              <p className="text-gray-800 py-1">Entity Framework</p>
+              <p className="text-gray-800 py-1">Code First Migration</p>
+              <p className="text-gray-800 py-1">Repository Pattern</p>
+              <p className="text-gray-800 py-1">Dependency Injection</p>
               <p className="text-gray-800 py-1">Console Application</p>
             </div>
           </div>
